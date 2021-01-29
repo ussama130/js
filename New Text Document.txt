@@ -1,0 +1,10 @@
+var userAge=18 
+(userAge >= 18) && (userAge < 18)
+
+var userAge=18 
+(userAge >= 18) || (userAge < 18)
+
+
+cel to faranheit if 0 
+frnheit to cel if 1
+formula convert

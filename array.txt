@@ -1,0 +1,77 @@
+// Switch Cases
+--------------------
+
+var dayNumber = 2
+switch (dayNumber) {
+    case 1:
+        alert('The Day Is Monday')
+        break;
+    case 2:
+        alert('The Day Is Tuesday')
+        break;
+    default:
+        alert('Enter a valid number !')
+}
+
+// Array
+---------
+Creating an Array
+----------------------
+var studentNames = ['Rizwan', 'Salman', 'Abdul Basit']
+
+Accessing Array
+--------------------
+studentNames
+ contains
+["Rizwan", "Salman", "Abdul Basit"]
+
+Accessing Array Element by position
+----------------------------------------------
+studentNames[1]
+
+"Salman"
+
+Adding Element To End Of Array
+----------------------------------------------
+studentNames.push('Abdul Karim')
+
+After addition studentNames
+ contains:
+["Rizwan", "Salman", "Abdul Basit", "Abdul Karim"]
+
+Removing Element From End Of Array
+----------------------------------------------
+studentNames.pop()
+
+"Abdul Karim"
+
+Removing Element From Start Of Array
+----------------------------------------------
+studentNames.shift()
+
+"Rizwan"
+
+Adding Element To Start Of Array
+----------------------------------------------
+studentNames.unshift('Ahmed')
+
+
+studentNames
+ now contains:
+["Ahmed", "Salman", "Abdul Basit"]
+
+Adding Or Removing from middle Of Array
+------------------------------------------------------
+studentNames.splice(1, 1, 'Hanif')
+
+studentNames
+ now contains:
+["Ahmed", "Hanif", "Abdul Basit"]
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+concate()   //join 2 or more array and return a result 
+index()     //search an element in array and return its result

@@ -1,0 +1,91 @@
+ARRAY
+
+collection of data 
+var studentname= 'rizwan'          //initialization
+diclaratration
+
+var studentNames = ['rizwan','salman','basit']
+
+prototype method
+push method in array ==>prototype
+stack
+POP(LEFO,FEFO)
+array ==>LEFO
+LEFO==>PUSH
+UNSHIFT==LEFO==>pop
+splice==>for put data or fetch data in center position
+(kia nikalna hai ,kia delete karana hai,kia add karana hai)
+indexoff==>path check kare ga 
+
+
+===========SWITCH CASE=============
+
+
+
+
+
+
+================GITHUB======================================
+vertion control function system(VTFC)
+master -->parent-->
+pull request
+
+
+repos(public/private)
+
+
+git -v  //to check git install ai ya nhy
+git
+git --version  //to check version konsa use kar rahe hai
+git init //git ko mere current project par initialize karae ga (pull push sub karae ga project par )
+git status   //current status batae ga folder me kis kis file me kia kia changes hue hai 
+git add file name //agar ek file hai to wo add karde ga 
+git add . //sare file jo bhe honge sub add karde ga 
+git commit -m "add simple file" //commit kardia or m message ke lea dia hai
+git log  //jo jo cheze commit ke hai wo dikh jae ga details ke sath 
+git log --oneline // ye apke orignal master remote master sub ka status batae ga 
+git remote -v //ye batae ga ke aap kise remote se connect hai ya nhy 
+git remote add origin <file path> //ye apke chezo ko remote se connect karde ga 
+git push origin master branch 
+git branch //ye batae ga branch ka 
+
+
+
+ek file folder me banae (sample 2 ) ke name se 
+ye abeh untracked me hoge 
+then CMD me gae 
+ git 
+
+
+
+
+
+apne pas project clone karne ke lea 
+git clone url pase karde ge // jo kam waha par rakha hai hamare local par ajae 
+make another file in folder
+then 
+git status //new file dikhe ge 
+git add .
+git commit -m "new added file"
+git status //
+git log --oneline
+git push origin master
+git pull origin master
+
+
+now changes ke pher se hum ne file me 
+modefication 
+git status 
+modify hua hai untrack hai 
+git add . 
+git commit -m "modification in new file"
+git log --onelime
+git push origin master
+
+
+
+git pull origin master
+then file check kare ge to jo modification ke hai wo ajae ge file me 
+
+
+ 
